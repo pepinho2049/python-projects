@@ -2,7 +2,7 @@ import requests
 import re
 import json
 
-API_KEY = "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"
+API_KEY = "get your own key god damn it"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = "mistralai/mistral-7b-instruct:free"  # sau alt model
 
@@ -135,3 +135,4 @@ while True:
         print("[WARN] Nu am găsit text în răspuns — iată JSON complet pentru debugging:")
         print(json.dumps(data, ensure_ascii=False, indent=2))
         print()
+
